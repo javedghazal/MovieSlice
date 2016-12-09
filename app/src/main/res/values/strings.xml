@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MovieSlice</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="title_activity_dummy">dummy</string>
+    <string name="title_activity_main2">MovieSlice</string>
+    <string name="category_list">category_list</string>
+    <string name="category_default">popular</string>
+    <string name="action_category">Category</string>
+    <string name="title_activity_detail">Movie Detail</string>
+    <string name="content_authority">com.example.ghazal.popularmoviesproject</string>
+    <string name="vote_count">By <xliff>%1s</xliff> votes</string>
+</resources>
