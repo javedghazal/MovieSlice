@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#220a3c</color>
+    <color name="color_secondary">#220a3c</color>
+    <color name="color_text_detail">#FFFFFF</color>
+    <color name="color_background_detail">#383838</color>
+    <color name="colorPrimaryDark">#1b0227</color>
+    <color name="color_cardViewYellow">#ff9800</color>
+    <!-- green 1: #84BE6A-->
+    <!--green2: #63AB62-->
+    <!--purple 1: #44146F-->
+    <!--purple 2: #683A5E-->
+</resources>

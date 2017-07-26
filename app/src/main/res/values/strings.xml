@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">MovieSlice</string>
     <string name="hello_world">Hello world!</string>
+    <string name="action_search">Search</string>
     <string name="action_settings">Settings</string>
     <string name="action_refresh">Refresh</string>
     <string name="title_activity_dummy">dummy</string>
@@ -9,6 +10,17 @@
     <string name="category_default">popular</string>
     <string name="action_category">Category</string>
     <string name="title_activity_detail">Movie Detail</string>
-    <string name="content_authority">com.example.ghazal.popularmoviesproject</string>
+    <string name="content_authority">com.example.ghazaljaved1993.movieslice</string>
     <string name="vote_count">By <xliff>%1s</xliff> votes</string>
+    <string name="rating">Rated: <xliff>%1s</xliff></string>
+    <string name="release_date">Release: <xliff>%1s</xliff></string>
+    <string name="runtime">Runtime: <xliff>%1s</xliff> mins</string>
+    <string name="episodes">Episodes: <xliff>%1s</xliff></string>
+    <string name="overview">Plot: <xliff>%1s</xliff></string>
+    <string name="homepage">Visit page at: <xliff>%1s</xliff></string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="api_key">aa30ea4bd93242bad0effff696d4e82a</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

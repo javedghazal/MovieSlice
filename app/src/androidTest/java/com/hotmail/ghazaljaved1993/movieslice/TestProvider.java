@@ -12,8 +12,6 @@ import android.os.HandlerThread;
 import android.test.AndroidTestCase;
 import android.util.Log;
 
-import com.hotmail.ghazaljaved1993.movieslice.data.MoviesContract;
-import com.hotmail.ghazaljaved1993.movieslice.data.MoviesDBHelper;
 import  com.hotmail.ghazaljaved1993.movieslice.utils.PollingCheck;
 
 import java.util.Map;

@@ -15,7 +15,7 @@
         android:background="#000000"
         xmlns:tools="http://schemas.android.com/tools"
         android:columnCount="3"
-        tools:context="com.hotmail.ghazaljaved1993.movieslice.Main2ActivityFragment">
+        tools:context="com.hotmail.ghazaljaved1993.movieslice.Fragment.HomeTabs.Main2ActivityFragment">
 
 
     <ImageView
