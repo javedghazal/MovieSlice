@@ -19,7 +19,7 @@
     <string name="overview">Plot: <xliff>%1s</xliff></string>
     <string name="homepage">Visit page at: <xliff>%1s</xliff></string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
-    <string name="api_key">aa30ea4bd93242bad0effff696d4e82a</string>
+    <string name="api_key">API KEY</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
