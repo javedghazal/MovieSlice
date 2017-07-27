@@ -113,21 +113,9 @@ public class TvAdapter extends RecyclerView.Adapter<TvAdapter.TvViewHolder> {
         @BindView(R.id.txtTvOverView) TextView txtTvOverview;
         @BindView(R.id.imgTvPoster) ImageView imageViewTv;
         @BindView(R.id.cardViewTv) CardView cardViewTv;
-//        TextView txtTvTitle;
-//        TextView txtTvVoteAverage;
-//        TextView txtTvFirstAir;
-//        TextView txtTvOverview;
-//        ImageView imageViewTv;
-//        CardView cardViewTv;
-
+        
         public TvViewHolder(View itemView) {
             super(itemView);
-//            txtTvTitle = (TextView) itemView.findViewById(R.id.txtTvTitle);
-//            txtTvOverview = (TextView) itemView.findViewById(R.id.txtTvOverView);
-//            txtTvVoteAverage = (TextView) itemView.findViewById(R.id.txtTvVoteAverage);
-//            txtTvFirstAir = (TextView) itemView.findViewById(R.id.txtTvFirstAir);
-//            imageViewTv = (ImageView) itemView.findViewById(R.id.imgTvPoster);
-//            cardViewTv = (CardView) itemView.findViewById(R.id.cardViewTv);
             ButterKnife.bind(this, itemView);
         }
     }
