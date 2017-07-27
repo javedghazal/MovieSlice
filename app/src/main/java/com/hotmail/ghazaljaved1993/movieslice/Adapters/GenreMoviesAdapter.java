@@ -81,20 +81,8 @@ public class GenreMoviesAdapter extends RecyclerView.Adapter<GenreMoviesAdapter.
         @BindView(R.id.imgPoster) ImageView imageView;
         @BindView(R.id.cardView) CardView cardView;
 
-//        TextView txtVoteAverage;
-//        TextView txtReleaseDate;
-//        TextView txtOverView;
-//        ImageView imageView;
-//        CardView cardView;
-
         public GenreMViewHolder(View itemView) {
             super(itemView);
-//            txtTitle = (TextView) itemView.findViewById(R.id.txtTitle);
-//            txtVoteAverage = (TextView) itemView.findViewById(R.id.txtVoteAverage);
-//            txtReleaseDate = (TextView) itemView.findViewById(R.id.txtReleaseDate);
-//            txtOverView = (TextView) itemView.findViewById(R.id.txtOverView);
-//            imageView = (ImageView) itemView.findViewById(R.id.imgPoster);
-//            cardView = (CardView) itemView.findViewById(R.id.cardView);
             ButterKnife.bind(this, itemView);
         }
     }
