@@ -42,20 +42,6 @@ public class Main2Activity extends AppCompatActivity {
 
         mTabLayout = (TabLayout) findViewById(R.id.tabs);
         mTabLayout.setupWithViewPager(mViewPager);
-//        Toolbar topToolBar = (Toolbar)findViewById(R.id.toolbar);
-//        setSupportActionBar(topToolBar);
-//        topToolBar.setLogo(R.drawable.ic_launcher1);
-//        try
-//        {
-//            mTabLayout.getTabAt(0).setIcon(R.drawable.peopleicon);
-//            mTabLayout.getTabAt(1).setIcon(R.drawable.requestsicon);
-//            mTabLayout.getTabAt(2).setIcon(R.drawable.messageicon);
-//            mTabLayout.getTabAt(3).setIcon(R.drawable.editwhite);
-//        }
-//        catch (NullPointerException e)
-//        {
-//            e.printStackTrace();
-//        }
 
         Log.d("Inside :", "Main2Activity");
     }
@@ -64,7 +50,6 @@ public class Main2Activity extends AppCompatActivity {
         adapter.addFragment(new Main2ActivityFragment(), "Movies");
         adapter.addFragment(new TVFragment(), "TV Shows");
         adapter.addFragment(new GenreFragment(), "Genre");
-//        adapter.addFragment(new NowFragment(), "Now Playing");
         viewPager.setAdapter(adapter);
 //        viewPager.setOffscreenPageLimit(3);
     }
@@ -117,28 +102,6 @@ public class Main2Activity extends AppCompatActivity {
         final SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
 //        searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
         searchView.setSearchableInfo(searchManager.getSearchableInfo(new ComponentName(Main2Activity.this, SearchResultsActivity.class)));
-
-//        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
-//            @Override
-//            public boolean onQueryTextSubmit(String query) {
-//                // Toast like print
-//                Log.d("SearchOnQueryText ", query+" ");
-////                if(!searchView.isIconified()) {
-////                    searchView.setIconified(true);
-////                }
-//                myActionMenuItem.collapseActionView();
-////                Intent i = new Intent(Main2Activity.this, SearchResultsActivity.class);
-////                i.putExtra("query", query);
-////                Log.d("Starting:", "search activity");
-////                startActivity(i);
-//                return false;
-//            }
-//            @Override
-//            public boolean onQueryTextChange(String s) {
-//                // UserFeedback.show( "SearchOnQueryTextChanged: " + s);
-//                return false;
-//            }
-//        });
         return true;
     }
 
@@ -146,8 +109,6 @@ public class Main2Activity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.action_search) {
-//            Intent i = new Intent(this, SettingsActivity.class);
-//            startActivity(i);
             return true;
         }
         return super.onOptionsItemSelected(item);
