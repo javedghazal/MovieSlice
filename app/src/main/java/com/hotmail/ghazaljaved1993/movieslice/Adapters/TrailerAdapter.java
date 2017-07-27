@@ -32,66 +32,6 @@ public class TrailerAdapter extends RecyclerView.Adapter<TrailerAdapter.TrailerV
         final String[] responseJsonStr = {null};
         final HttpURLConnection[] urlConnection = {null};
         final BufferedReader[] reader = {null};
-//        Thread t = new Thread(new Runnable() {
-//            @Override
-//            public void run() {
-//                try {
-//
-//                    Uri builtUri = Uri.parse("http://api.themoviedb.org/3/movie/"+mId+"/videos?api_key=aa30ea4bd93242bad0effff696d4e82a");
-//
-//                    URL url = new URL(builtUri.toString());
-//                    Log.v("^^^^^", "Built TRAILER " + builtUri.toString());
-//
-//                    urlConnection[0] = (HttpURLConnection) url.openConnection();
-//                    urlConnection[0].setRequestMethod("GET");
-//                    urlConnection[0].connect();
-//                    Log.d("@@@@@@", "Outside if");
-//
-//                    InputStream inputStream = urlConnection[0].getInputStream();
-//                    StringBuffer buffer = new StringBuffer();
-//
-//
-//                    reader[0] = new BufferedReader(new InputStreamReader(inputStream));
-//                    String line;
-//                    while ((line = reader[0].readLine()) != null) {
-//
-//                        buffer.append(line + "\n");
-//                        responseJsonStr[0] = buffer.toString();
-//
-//                    }
-//                    Log.d("%%%%%%", responseJsonStr[0]);
-////                String result[] = new String[10];
-//                    result = new ArrayList<>();
-//                    if(buffer.length() != 0) {
-//                        try {
-//
-//                            String key = "key";
-//                            String value = null;
-//
-//                            JSONObject trailerJson = new JSONObject(responseJsonStr[0]);
-//                            JSONArray resultArray = trailerJson.getJSONArray("results");
-//
-//                            for(int i = 0; i < resultArray.length(); i++)
-//                            {
-//                                JSONObject arrayItem = resultArray.getJSONObject(i);
-//                                value = arrayItem.getString(key);
-//                                result.add(value);
-//                                Log.d("^^^^^^value", value);
-//                            }
-////                    return result;
-//
-//                        } catch (JSONException e) {
-//                            Log.d("json exception", "" + e);
-//                        }
-//                    }
-//                }
-//                catch (IOException e) {
-//                    Log.e("^^^^^^", "Error ", e);
-//                }
-//            }
-//        });
-//        t.start();
-
     }
 
     @Override
