@@ -61,7 +61,6 @@ public class GenreAdapter extends RecyclerView.Adapter<GenreAdapter.GenreViewHol
                 ActivityOptionsCompat activityOptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(activity,
                         holder.txtGenreName, "transitionToolbar");
                 context.startActivity(i, activityOptionsCompat.toBundle());
-//                context.startActivity(i);
             }
         });
     }
@@ -78,8 +77,6 @@ public class GenreAdapter extends RecyclerView.Adapter<GenreAdapter.GenreViewHol
 
         public GenreViewHolder(View itemView) {
             super(itemView);
-//            txtGenreName = (TextView) itemView.findViewById(R.id.txtGenreName);
-//            cardView_Genre = (CardView) itemView.findViewById(R.id.cardView_Genre);
             ButterKnife.bind(this, itemView);
         }
     }
